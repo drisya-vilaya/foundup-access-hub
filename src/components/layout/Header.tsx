@@ -25,6 +25,9 @@ export const Header = ({ onSignIn }: HeaderProps) => {
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
             About
           </a>
+          <a href="/build" className="text-muted-foreground hover:text-foreground transition-colors">
+            Build
+          </a>
         </nav>
 
         <div className="flex items-center gap-4">
